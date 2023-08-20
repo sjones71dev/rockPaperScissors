@@ -1,0 +1,12 @@
+<svg viewBox="311.087 265.434 64.132 60.287" xmlns="http://www.w3.org/2000/svg">
+  <rect x="311.28" y="294.415" width="63.609" height="17.243" style="fill: rgb(196, 215, 222);" rx="6.898" ry="6.898"></rect>
+  <rect x="317.986" y="279.279" width="50.294" height="45.887" style="fill: rgb(196, 215, 222);" rx="18.393" ry="18.393"></rect>
+  <rect x="342.031" y="271.232" width="2.203" height="8.622" style="fill: rgb(213, 232, 239);"></rect>
+  <ellipse style="fill: rgb(242, 250, 252);" cx="343.085" cy="269.843" rx="4.215" ry="4.072"></ellipse>
+  <rect x="317.986" y="278.8" width="50.293" height="43.588" style="fill: rgb(242, 250, 252);" rx="17.818" ry="17.818"></rect>
+  <rect x="323.447" y="287.135" width="39.277" height="29.792" style="fill: rgb(195, 216, 219);" rx="11.591" ry="11.591"></rect>
+  <rect x="323.831" y="288.859" width="38.51" height="28.068" style="fill: rgb(53, 56, 73);" rx="11.208" ry="11.208"></rect>
+  <ellipse style="fill: rgb(81, 242, 226);" cx="333.937" cy="300.833" rx="2.347" ry="2.587"></ellipse>
+  <ellipse style="fill: rgb(81, 242, 226);" cx="352.282" cy="300.834" rx="2.347" ry="2.587"></ellipse>
+  <path style="fill: none; stroke-width: 2px; stroke-linecap: round; stroke: rgb(81, 242, 226);" d="M 338.679 307.06 C 340.393 310.65 345.757 310.836 347.588 307.06"></path>
+</svg>

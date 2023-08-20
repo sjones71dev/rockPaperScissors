@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,400;0,900;1,300&family=Tulpen+One&display=swap');
+
+:root{
+    /* FONTS */
+        --ft_accent: 'Kalam', cursive;
+        --ft_main: 'Roboto', sans-serif;
+        --ft_main_mono: 'Roboto Mono', monospace;
+        --ft_vs: 'Tulpen One', cursive;
+
+    /* COLOURS */
+        --clr_primary: #777
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    font-family: var(--ft_main);
+    color: var(--clr_primary);
+    
+}
+section{
+    background: transparent;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#frontPage .container{
+    margin: auto;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-size: 56px;
+    margin-bottom: 150px;
+}
+.title > * {
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: var(--ft_accent);
+    font-size: 96px;
+    transform: rotate(-2deg);
+  }
+
+
+
+.vs{
+    background-image: linear-gradient( to left, #f7971e, #ffd200);
+    aspect-ratio: 1;
+    display: flex;
+    min-height: 100px;
+    border-radius: 50%;
+    color: white;
+    margin-top: -20px;
+    position: relative;
+}
+.vs::before, .vs::after{
+    content: 'man';
+    color: var(--clr_primary);
+    position: absolute;
+    font-size: 56px;
+    text-transform: capitalize;
+    font-family: var(--ft_accent);
+    top: 0;
+    right: 90%;
+}
+.vs::after{
+    content: 'Machine';
+    top: auto;
+    bottom: -10px;
+    left: 90%;
+}
+.vs span{
+    margin: 0px auto;
+    font-family: var(--ft_vs);
+    font-size: 120px;
+    padding: 0;
+    line-height: 90px;
+}
+
+.characterSelection{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    cursor: pointer;
+}
+.characterSelection > *{
+    margin: 20px auto;
+}
+.avatars{
+    display: flex;
+    flex-direction: row;
+}
+.character{
+    margin: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    
+    display: flex;
+}
+.character img{
+    width: 200px;
+}
